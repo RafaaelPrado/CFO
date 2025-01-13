@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend Deca:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #e2e2e2;
+}
+
+.logo {
+    margin-bottom: 20px; /* Espaçamento entre a logo e o formulário */
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(173, 216, 230, 0.4);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333333;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+hr {
+    margin-top: 0%;
+    margin-bottom: 3%;
+    border-radius: 10px; /* Remove a borda padrão */
+    border-top: 2px solid #333333; /* Define uma linha forte e escura */
+}
+
+.submit-btn {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #276746;
+}
+
+.primeiraLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    position: relative;
+    text-align: left;
+    margin-top: -1%;
+    font-size: 90%;
+
+}

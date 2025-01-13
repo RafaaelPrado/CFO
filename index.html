@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[CFO] Requerimento de Membros</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <img class="logo" src="logo.png">
+    <div class="form-container">
+        <form id="cfo-form">
+            <h1>Centro de Formação de Oficiais</h1>
+            
+            <label class="primeiraLabel" for="options">Selecione uma opção:</label>
+            <select id="options" name="options">
+                <option value="">-- Escolha uma opção --</option>
+                <option value="entrada">Entrada de Membros</option>
+                <option value="licenca">Solicitação de Licença/Reserva</option>
+                <option value="retorno">Retorno de Licença/Reserva</option>
+                <option value="promocao">Promoção</option>
+                <option value="advertencia">Advertências</option>
+                <option value="rebaixamento">Rebaixamento</option>
+                <option value="desligamento">Desligamento</option>
+                <option value="mudanca">Mudança de Tema</option>
+                <option value="transferencia">Transferência de Conta</option>
+            </select>
+            <hr id="separator-line">
+            
+            <div id="dynamic-fields"></div>
+
+            <button type="submit" class="submit-btn" style="display: none;">Postar</button>
+        </form>
+    </div>
+</body>
+</html>
